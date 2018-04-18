@@ -28,7 +28,7 @@ const chartOptions = {
 };
 
 const ThiccGraph = ({ pollData }) => (
-  <Doughnut data={pollData || data} options={chartOptions} width="300" height="300" />
+  <Doughnut data={pollData || data} options={chartOptions} width="280" height="280" />
 );
 
 
