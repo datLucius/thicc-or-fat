@@ -12,7 +12,7 @@ const Rating = ({ type, handleVote }) => (
     role="button"
   >
     <img src={type === "thicc" ? "/images/peach.png" : "/images/pig.png"} alt={type} className="w-100" />
-    <div className="mt2 white">{type}</div>
+    <div className="mt2 white f4">{type}</div>
   </div>
 );
 
@@ -74,7 +74,7 @@ class App extends Component {
               <div className="mt4 mw6 mb6 center pa2 br2 flex" style={{ backgroundColor: "#343f4f" }}>
                 <div className="ba b--white pa2 white mw9 pa4">
                   <div className="f2 bb b--white bw1 pb2 gold-text">POLL RESULTS</div>
-                  <div className="mt4">According to a rigorously conducted scientific survey,</div>
+                  <div className="mt4 f4">According to a rigorously conducted scientific survey,</div>
                   <div className="f1 mt4 fw9">{this.determineThiccness()}</div>
                   <div className="mt4 pointer">
                     <ThiccGraph pollData={poll} />
@@ -85,7 +85,7 @@ class App extends Component {
             </div>
           </div>
           <div className="f4 pa4 bg-white w-100 tc" style={{ borderTop: ".25rem solid #a98760" }}>
-            <div className="gold-text dim pointer">datLucius made it</div>
+            <a href="mailto:jlnelsonart@gmail.com" className="gold-text dim pointer link">Lucius made it</a>
           </div>
         </div>
         }
