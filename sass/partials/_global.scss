@@ -1,0 +1,19 @@
+// put global styles here
+* {
+  font-family: 'Merriweather;', serif;
+}
+
+.gold-boi {
+  background-color: #a98760;
+}
+.gold-text {
+  color: #a98760;
+}
+html {
+  background: url("/images/whitehouse_fade.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  background-size: cover;
+}

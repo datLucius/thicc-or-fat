@@ -1,0 +1,3 @@
+export const THICC_LOADING = 'THICC_LOADING';
+export const THICC_LOADEND = 'THICC_LOADEND';
+export const THICC_UPDATE = 'THICC_UPDATE';
