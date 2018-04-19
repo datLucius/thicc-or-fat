@@ -7,7 +7,7 @@ import ThiccGraph from './ThiccGraph';
 
 const Rating = ({ type, handleVote }) => (
   <div
-    className="w-50 tc pa4 pa5-ns grow pointer"
+    className="w-50 tc pa5 grow pointer"
     onClick={() => { handleVote(type); }}
     role="button"
   >
@@ -63,9 +63,7 @@ class App extends Component {
               <div className="mt4 mw6 mb6 center gold-boi pa2 br2 box-shadow">
                 <div className="ba b--white pa3">
                   <div className="f1 bb b--white bw1 white fw6 pb4 pt3" style={{ color: "#343f4f" }}>VOTE</div>
-                  <div className="video-frame mt4 center">
-                    <div className="rump-zoom" />
-                  </div>
+                  <img src="/images/trump.jpg" alt="trump" className="w-100 mt4" />
                   <div className="w-100 flex mb3 mt2">
                     <Rating type="thicc" handleVote={this.handleThicc} />
                     <Rating type="fat" handleVote={this.handleFat} />
