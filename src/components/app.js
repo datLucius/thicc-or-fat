@@ -54,7 +54,7 @@ class App extends Component {
             <div className="f2 pa2 pt4 pb4 white" style={{ backgroundColor: "#343f4f" }}>
               <img src="/images/thiccorfat_logo.png" alt="trump" className="w-70 mw6" />
             </div>
-            <div className="f4 white pa3 mb4 flex items-center justify-around box-shadow" style={{ backgroundColor: "#28323f" }}>
+            <div className="f4 white pa4 mb4 flex items-center justify-around box-shadow" style={{ backgroundColor: "#28323f" }}>
               <div className="gold-boi w-20 w-40-ns" style={{ height: "2px" }} />
               <div className="w-40 w-20-ns">voting now open</div>
               <div className="gold-boi w-20 w-40-ns" style={{ height: "2px" }} />
@@ -66,7 +66,6 @@ class App extends Component {
                   <div className="video-frame mt4 center">
                     <div className="rump-zoom" />
                   </div>
-
                   <div className="w-100 flex mb3 mt2">
                     <Rating type="thicc" handleVote={this.handleThicc} />
                     <Rating type="fat" handleVote={this.handleFat} />
