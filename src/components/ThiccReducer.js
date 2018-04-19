@@ -14,18 +14,19 @@ export default function (state = INITIAL_STATE, action) {
     case THICC_UPDATE:
       return {
         ...state,
-        poll: [{
-          value: action.payload.thicc,
-          color: "#e47453",
-          highlight: "#b03224",
-          label: "THICC"
-        },
-        {
-          value: action.payload.fat,
-          color: "#eaaebe",
-          highlight: "#bb6783 ",
-          label: "FAT"
-        }]
+        poll: [
+          {
+            value: action.payload.fat,
+            color: "#eaaebe",
+            highlight: "#bb6783 ",
+            label: "FAT"
+          },
+          {
+            value: action.payload.thicc,
+            color: "#e47453",
+            highlight: "#b03224",
+            label: "THICC"
+          }]
       };
     case THICC_LOADING:
       return {

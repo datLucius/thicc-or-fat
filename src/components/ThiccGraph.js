@@ -4,15 +4,15 @@ import { Doughnut } from 'react-chartjs';
 const data = [
   {
     value: 0,
-    color: "#e47453",
-    highlight: "#b03224",
-    label: "THICC"
-  },
-  {
-    value: 0,
     color: "#eaaebe",
     highlight: "#bb6783 ",
     label: "FAT"
+  },
+  {
+    value: 0,
+    color: "#e47453",
+    highlight: "#b03224",
+    label: "THICC"
   }
 ];
 

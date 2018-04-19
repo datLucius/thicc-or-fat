@@ -17,3 +17,27 @@ html {
 
   background-size: cover;
 }
+
+.video-frame {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+}
+.rump-zoom {
+  width: 100%;
+  height: 100%;
+  background-color: black; /* fallback color */
+  background-image: url("/images/trump.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: all 3s;
+}
+
+.video-frame:hover .rump-zoom,
+.video-frame:focus .rump-zoom {
+  transform: scale(3) translate(-130px, -50px);
+}
+
+.video-frame:hover .rump-zoom:before, .video-frame:focus .rump-zoom:before {
+    display: block;
+}
