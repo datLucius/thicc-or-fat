@@ -54,27 +54,27 @@ class App extends Component {
             <div className="f2 pa2 pt4 pb4 white" style={{ backgroundColor: "#343f4f" }}>
               <img src="/images/thiccorfat_logo.png" alt="trump" className="w-70 mw6" />
             </div>
-            <div className="f4 white pa3 mb4 flex items-center justify-around" style={{ backgroundColor: "#28323f" }}>
+            <div className="f4 white pa3 mb4 flex items-center justify-around box-shadow" style={{ backgroundColor: "#28323f" }}>
               <div className="gold-boi w-20 w-40-ns" style={{ height: "2px" }} />
               <div className="w-40 w-20-ns">voting now open</div>
               <div className="gold-boi w-20 w-40-ns" style={{ height: "2px" }} />
             </div>
             <div className="flex flex-wrap mb6 pa2">
-              <div className="mt5 mw6 mb6 center gold-boi pa2 br2">
+              <div className="mt4 mw6 mb6 center gold-boi pa2 br2 box-shadow">
                 <div className="ba b--white pa3">
                   <div className="f1 bb b--white bw1 white fw6 pb4 pt3" style={{ color: "#343f4f" }}>VOTE</div>
                   <div className="video-frame mt4 center">
                     <div className="rump-zoom" />
                   </div>
 
-                  <div className="w-100 flex">
+                  <div className="w-100 flex mb3 mt2">
                     <Rating type="thicc" handleVote={this.handleThicc} />
                     <Rating type="fat" handleVote={this.handleFat} />
                   </div>
                 </div>
               </div>
               {poll &&
-              <div className="mt4 mw6 mb6 center pa2 br2 flex" style={{ backgroundColor: "#343f4f" }}>
+              <div className="mt4 mw6 mb6 center pa2 br2 flex box-shadow" style={{ backgroundColor: "#343f4f" }}>
                 <div className="ba b--white pa2 white mw9 pa4">
                   <div className="f1 bb b--white bw1 pb4 gold-text fw6 pt3">POLL RESULTS</div>
                   <div className="mt5 f4">According to a rigorously conducted scientific survey,</div>

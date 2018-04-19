@@ -41,3 +41,9 @@ html {
 .video-frame:hover .rump-zoom:before, .video-frame:focus .rump-zoom:before {
     display: block;
 }
+
+.box-shadow {
+  -webkit-box-shadow: 0px 6px 42px -9px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 6px 42px -9px rgba(0,0,0,0.54);
+box-shadow: 0px 6px 42px -9px rgba(0,0,0,0.54);
+}
